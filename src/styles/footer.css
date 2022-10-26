@@ -1,0 +1,47 @@
+.footer__red {
+	position: absolute;
+	bottom: auto;
+	width: 100%;
+	height: 70px;
+	background-color: var(--color-red);
+	left: 0;
+}
+.footer__black {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background-color: black;
+}
+.footer__circle {
+	width: 60px;
+	aspect-ratio: 1;
+	position: absolute;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+.footer__circle-int {
+	width: 40px;
+	aspect-ratio: 1;
+	position: absolute;
+	background-color: var(--color-red);
+	border-radius: 50%;
+	left: 50%;
+	transform: translate(-50%, 10px);
+	border: 9px solid white;
+}
+.footer-position {
+	top: 0;
+}
+.circle-position {
+	width: 60px;
+	aspect-ratio: 1;
+	position: absolute;
+	background-color: black;
+	border-radius: 50%;
+	bottom: 0;
+	left: 80%;
+}
